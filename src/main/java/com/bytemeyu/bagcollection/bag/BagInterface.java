@@ -6,5 +6,5 @@ import java.util.ArrayList;
 public interface BagInterface {
     public abstract boolean addItem(String item);
     public abstract boolean removeItem(String item);
-    public abstract ArrayList showItens();
+    public abstract ArrayList<String> displayItems();
 }
